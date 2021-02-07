@@ -1,179 +1,250 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Travel</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0d45fba2d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery.js" charset="utf-8"></script>
+    <script src="js/aos.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Travel</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/0d45fba2d0.js" crossorigin="anonymous"></script>
-  <script src="./js/jquery.js" charset="utf-8"></script>
-  <script src="js/aos.js" charset="utf-8"></script>
-  <link rel="stylesheet" type="text/css" href="./css/slick.css" />
-  <link rel="stylesheet" href="./css/aos.css">
-  <link rel="stylesheet" href="./css/slick-theme.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <aside class="sidebar-header">
-    <div>
-      <img src="./icons/arrow-right-solid.svg" alt="->" class="rotate-arrow sidebar-cross">
+  <body>
+    <aside class="sidebar-header">
+      <div>
+        <span></span>
+        <img
+          src="./icons/arrow-right-solid.svg"
+          alt="->"
+          class="rotate-arrow sidebar-cross"
+        />
+      </div>
+      <span>HOME</span>
+      <span>TRAVEL</span>
+      <span>STORIES</span>
+    </aside>
+    <div class="bg-dark">
+      <img src="./images/25372.jpg" alt="" />
     </div>
-    <span>HOME</span>
-    <span>TRAVEL</span>
-    <span>STORIES</span>
-  </aside>
-  <div class="bg-dark">
-    <img src="./images/25372.jpg" alt="">
-  </div>
-  <div class="bg-dark">
-    <img src="./images/25372.jpg" alt="">
-  </div>
-
-  <section class="padding-left mainpage">
-    <header class="">
-      <div class="header-left">
-        <div class="circle-sm">
-          <span class="circle-initials">M</span>
-        </div>
-        <span>Mountains</span>
-      </div>
-      <div class="header-right">
-        <img src="./icons/dp.jpg" alt="" align="center" class="dp dp-bor">
-        <span>Kritesh Kaushik</span>
-        <img src="./icons/angle-down-solid.svg" alt="" class="ico">
-        <img src="./icons/dots.svg" alt="" class="svg-back">
-      </div>
-    </header>
-    <div class="main-content">
-      <div class="left-container ">
-        <h1>Share your travel journey <br> with us</h1>
-        <hr>
-        <p>We provide you with wonderful stories of travellers worldwide, get in touch and share your experiences now</p>
-        <a href="#" class="hard-shd getstarted-button">
-          <span>GET STARTED</span>
-          <img src="./icons/arrow-right-solid.svg" alt="" class="ico" align="center">
-        </a>
-      </div>
-      <div class="right-container ">
-        <div class="slide-container ">
-          <div>
-            <div class="slides">
-              <img src="images/IMG_6907.jpg" alt="" class="slide-bg">
-              <div class="image-overlay">
-                <p class="light">23-jan<br><span class="med">Jodhpur</span></p>
-                <div class="slide-user">
-                  <h1 class="bold slide-heading">Rajasthan<hr></h1>
-                  <img src="./icons/dp.jpg" alt="" align="top" class="dp dp-bor">
-                  <span>Kritesh Kaushik
-                    <br>
-                    <span class="light" style="font-size:0.8rem">Hi this is me</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="slides">
-              <img src="images/IMG_7501.jpg" class="slide-bg"alt="">
-              <div class="image-overlay">
-                <p class="light">2-apr<br><span class="med">Agra</span></p>
-                <div class="slide-user">
-                  <h1 class="bold slide-heading">Uttar Pradesh<hr></h1>
-
-                  <img src="./icons/dp.jpg" alt="" align="top" class="dp dp-bor">
-                  <span>Kritesh Kaushik
-                    <br>
-                    <span class="light" style="font-size:0.8rem">Hi this is me</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="slides">
-              <img src="images/IMG_3932.jpg" class="slide-bg"alt="">
-              <div class="image-overlay">
-                <p class="light">23-jan<br><span class="med">Jaipur</span></p>
-                <div class="slide-user">
-                  <h1 class="bold slide-heading">Rajasthan<hr></h1>
-
-                  <img src="./icons/dp.jpg" alt="" align="top" class="dp dp-bor">
-                  <span>Kritesh Kaushik
-                    <br>
-                    <span class="light" style="font-size:0.8rem">Hi this is me</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="slides">
-              <img src="images/IMG_6907.jpg"class="slide-bg" alt="">
-            </div>
-          </div>
-          <div>
-            <div class="slides">
-              <img src="images/IMG_7501.jpg"class="slide-bg" alt="">
-            </div>
-          </div>
-          <div>
-            <div class="slides">
-              <img src="images/IMG_6907.jpg" alt="">
-            </div>
-          </div>
-          <div>
-            <div class="slides">
-              <img src="images/IMG_7501.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <!-- <div class="transparent-gradient"></div> -->
-        <div class="arrows">
-          <i class=" fas fa-arrow-left slider-arrow-left selectable-arrows"></i>
-          <i class=" fas fa-arrow-right slider-arrow-right selectable-arrows"></i>
-        </div>
-      </div>
+    <div class="bg-dark">
+      <img src="./images/25372.jpg" alt="" />
     </div>
 
-  </section>
-  <script type="text/javascript" src="js/slick.js"></script>
-</body>
-<script src="./js/script.js" charset="utf-8"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    var slidesToShow = 3;
-    var totalSlides = $(".slide-container > div").length;
-    $('.slide-container').slick({
-      dots: false,
-      infinite:false,
-      draggable:false,
-      slidesToShow: slidesToShow,
-      slidesToScroll:1,
-      autoplay: false,
-      adaptiveWidth:false,
-      prevArrow: $(".slider-arrow-left"),
-      nextArrow: $(".slider-arrow-right"),
-    });
-    let sliderArrows = () => {
-      var currentSlide = $('.slide-container').slick('slickCurrentSlide');
-      if(currentSlide === 0 ){
-        $(".slider-arrow-left").removeClass("selectable-arrows").addClass("nonselectable-arrows");
-      }
-      else if (currentSlide === (totalSlides - slidesToShow) ) {
-        $(".slider-arrow-right").removeClass("selectable-arrows").addClass("nonselectable-arrows")
-      }
-      else{
-        $(".slider-arrow-left , .slider-arrow-right").removeClass("nonselectable-arrows").addClass("selectable-arrows")
-      }
-      console.log("currentslide" , currentSlide , "total slides" , slidesToShow)
-    };
-    sliderArrows();
-    $(".slider-arrow-left , .slider-arrow-right").click(function(){
+    <section class="padding-left mainpage">
+      <header class="">
+        <div class="header-left">
+          <div class="circle-sm">
+            <span class="circle-initials">M</span>
+          </div>
+          <span>Mountains</span>
+        </div>
+        <div class="header-right">
+          <img src="./icons/dp.jpg" alt="" align="center" class="dp dp-bor" />
+          <span>Kritesh Kaushik</span>
+          <img src="./icons/angle-down-solid.svg" alt="" class="ico" />
+          <img src="./icons/dots.svg" alt="" class="svg-back" />
+        </div>
+      </header>
+      <div class="main-content">
+        <div class="left-container">
+          <h1>
+            Share your travel journey <br />
+            with us
+          </h1>
+          <hr />
+          <p>
+            We provide you with wonderful stories of travellers worldwide, get
+            in touch and share your experiences now
+          </p>
+          <a href="#" class="hard-shd getstarted-button">
+            <span>GET STARTED</span>
+            <img
+              src="./icons/arrow-right-solid.svg"
+              alt=""
+              class="ico"
+              align="center"
+            />
+          </a>
+        </div>
+        <div class="right-container">
+          <div class="slide-container">
+            <div>
+              <div class="slides">
+                <img src="images/IMG_6907.jpg" alt="" class="slide-bg" />
+                <div class="image-overlay">
+                  <p class="light">
+                    23-jan<br /><span class="med">Jodhpur</span>
+                  </p>
+                  <div class="slide-user">
+                    <h1 class="bold slide-heading">
+                      Rajasthan
+                      <hr />
+                    </h1>
+                    <img
+                      src="./icons/dp.jpg"
+                      alt=""
+                      align="top"
+                      class="dp dp-bor"
+                    />
+                    <span
+                      >Kritesh Kaushik
+                      <br />
+                      <span class="light" style="font-size: 0.8rem"
+                        >Hi this is me</span
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slides">
+                <img src="images/IMG_7501.jpg" class="slide-bg" alt="" />
+                <div class="image-overlay">
+                  <p class="light">2-apr<br /><span class="med">Agra</span></p>
+                  <div class="slide-user">
+                    <h1 class="bold slide-heading">
+                      Uttar Pradesh
+                      <hr />
+                    </h1>
+
+                    <img
+                      src="./icons/dp.jpg"
+                      alt=""
+                      align="top"
+                      class="dp dp-bor"
+                    />
+                    <span
+                      >Kritesh Kaushik
+                      <br />
+                      <span class="light" style="font-size: 0.8rem"
+                        >Hi this is me</span
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slides">
+                <img src="images/IMG_3932.jpg" class="slide-bg" alt="" />
+                <div class="image-overlay">
+                  <p class="light">
+                    23-jan<br /><span class="med">Jaipur</span>
+                  </p>
+                  <div class="slide-user">
+                    <h1 class="bold slide-heading">
+                      Rajasthan
+                      <hr />
+                    </h1>
+
+                    <img
+                      src="./icons/dp.jpg"
+                      alt=""
+                      align="top"
+                      class="dp dp-bor"
+                    />
+                    <span
+                      >Kritesh Kaushik
+                      <br />
+                      <span class="light" style="font-size: 0.8rem"
+                        >Hi this is me</span
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slides">
+                <img src="images/IMG_6907.jpg" class="slide-bg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div class="slides">
+                <img src="images/IMG_7501.jpg" class="slide-bg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div class="slides">
+                <img src="images/IMG_6907.jpg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div class="slides">
+                <img src="images/IMG_7501.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- <div class="transparent-gradient"></div> -->
+          <div class="arrows">
+            <i
+              class="fas fa-arrow-left slider-arrow-left selectable-arrows"
+            ></i>
+            <i
+              class="fas fa-arrow-right slider-arrow-right selectable-arrows"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/slick.js"></script>
+  </body>
+  <script src="./js/script.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var slidesToShow = 3;
+      var totalSlides = $(".slide-container > div").length;
+      $(".slide-container").slick({
+        dots: false,
+        infinite: false,
+        draggable: false,
+        slidesToShow: slidesToShow,
+        slidesToScroll: 1,
+        autoplay: false,
+        adaptiveWidth: false,
+        prevArrow: $(".slider-arrow-left"),
+        nextArrow: $(".slider-arrow-right"),
+      });
+      let sliderArrows = () => {
+        var currentSlide = $(".slide-container").slick("slickCurrentSlide");
+        if (currentSlide === 0) {
+          $(".slider-arrow-left")
+            .removeClass("selectable-arrows")
+            .addClass("nonselectable-arrows");
+        } else if (currentSlide === totalSlides - slidesToShow) {
+          $(".slider-arrow-right")
+            .removeClass("selectable-arrows")
+            .addClass("nonselectable-arrows");
+        } else {
+          $(".slider-arrow-left , .slider-arrow-right")
+            .removeClass("nonselectable-arrows")
+            .addClass("selectable-arrows");
+        }
+        console.log("currentslide", currentSlide, "total slides", slidesToShow);
+      };
       sliderArrows();
+      $(".slider-arrow-left , .slider-arrow-right").click(function () {
+        sliderArrows();
+      });
     });
-  });
-</script>
+  </script>
+</html>
